@@ -246,9 +246,12 @@ img {
   height: 20vh; /* Adjust as needed */
 }
 
-.about__subtitle {
-  margin-bottom: var(--mb-2);
-  justify-content: right; /* This property might not be necessary for centering */
+@media screen and (max-width: 600px) {
+    .about__subtitle {
+        font-size: 1.5rem; /* Adjust the font size as needed */
+    }
+
+    /* You can add more styling adjustments for smaller screens if needed */
 }
 
 
